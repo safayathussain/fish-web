@@ -1,0 +1,25 @@
+.main-container{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 40px;
+}
+.shrimp-image{
+    max-width: 472px;
+}
+.details{
+    max-width: 800px;
+}
+.join-btn{
+    background-color: #0473EA;
+    border: 2px solid #0473EA;
+}
+.join-btn:hover{
+    background-color: white;
+    color: #0473EA;
+    border: 2px solid #0473EA;
+}
+@media screen and (max-width:680px) {
+    .main-container{
+        padding: 0 20px;
+    }
+}

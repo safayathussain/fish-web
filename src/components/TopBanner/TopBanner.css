@@ -1,0 +1,104 @@
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.banner-container{
+    width: 100%;
+    height: calc(100vh - 64px);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+.content-top-banner{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    /* margin-left: 0; */
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 40px;
+    
+}
+.content-top-banner > div > h1{
+    line-height: 160px;
+    text-align: left;
+}
+.sailing-text{
+    font-size: 115px;
+    color: white;
+    line-height: 160px;
+}
+.blue-text{
+    color: #0473EA;
+    font-size: 155px;
+    line-height: 160px;
+}
+.blue-text span{
+    color: #40CC0D;
+    
+}
+.join-btn-top{
+    background-color: #0473EA;
+    color: white;
+}
+.join-btn-top:hover{
+    background-color: white;
+    color: #0473EA;
+}
+
+@media screen and (max-width:1240px) {
+    .sailing-text{
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .content-top-banner > div > h1{
+        line-height: 100px;
+        text-align: left;
+    }
+    .blue-text{
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .content-top-banner{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width:640px) {
+    .content-top-banner > div > h1{
+        line-height: 60px;
+        text-align: left;
+    }
+    .sailing-text{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .blue-text{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .content-top-banner{
+        padding-left: 40px;
+    }
+    .green-line{
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width:350px) {
+    
+    .sailing-text{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .blue-text{
+        font-size: 50px;
+        line-height: 60px;
+    }
+}

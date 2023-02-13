@@ -1,0 +1,33 @@
+.main-container{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 40px;
+}
+.main-background{
+    background-color: #ECF7FF;
+}
+.commerce-image{
+    max-width: 472px;
+}
+.details{
+    max-width: 800px;
+    
+}
+.join-btn{
+    background-color: #0473EA;
+    border: 2px solid #0473EA;
+}
+.join-btn:hover{
+    background-color: white;
+    color: #0473EA;
+    border: 2px solid #0473EA;
+}
+.blue-text-fisheries{
+    color: #0473EA;
+}
+.green-text-aquaculture{
+    color: #40CC0D;
+}
+.commerce-shadow{
+    box-shadow: 0px 32px 54px rgba(4, 115, 234, 0.1)
+}

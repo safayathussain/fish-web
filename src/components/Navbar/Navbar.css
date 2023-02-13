@@ -1,0 +1,30 @@
+.nav-link{
+    color: black;
+    background-color: aquamarine;
+}
+.navbar-container {
+    max-width: 1440px;
+    margin: auto;
+}
+.hover-text:hover{
+ color: #0473EA;   
+}
+.hover-text:focus{
+    background-color: transparent;
+}
+.nav-logo{
+    max-width: 185px;
+}
+.nav-btn{
+    background-color: #0473EA;
+}
+.nav-btn:hover{
+    background-color: #38D200;
+}
+.humburger:hover{
+    color: #0473EA;
+}
+.humburger:focus{
+    color: #0473EA;
+    outline: 0;
+}
